@@ -1,0 +1,18 @@
+The project is a demo project for xh qrcode scan login
+parameters:
+userid: hard-code or get from wechart parameter. now hardcode value is 12345
+statecode: hard-code.now hardcode value is 12345
+
+Message:
+
+Not implement message:
+
+resource:
+            fontawesome
+
+Layout:
+
+Color:
+    gray & wechat green
+
+
