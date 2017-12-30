@@ -286,7 +286,7 @@ function getSessionScope(){
     var url = document.location.toString();
     if(url.indexOf("xhsession=")!=-1){
         var arrUrl= url.split("xhsession=");
-        var scope_value = arrUrl[1].split("#")[0];
+        var scope_value = arrUrl[1].split("&")[0];
         //log("code="+scope_value);
         if(scope_value.length>0 ){
             return scope_value;
